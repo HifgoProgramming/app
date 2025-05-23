@@ -12,7 +12,7 @@ st.markdown(
 )
 
 if st.session_state["tab"] == "This is the Main Controllstation":
-    st.image("logo.png", use_container_width=False, caption="Powered by HellionCorp")
+    #st.image("logo.png", use_container_width=False, caption="Powered by HellionCorp")
     st.markdown("""
         <style>
         .stApp {

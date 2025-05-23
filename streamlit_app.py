@@ -20,7 +20,14 @@ if st.session_state["tab"] == "This is the Main Controllstation":
         }
         </style>
     """, unsafe_allow_html=True)
-
+else:
+    st.markdown("""
+        <style>
+        .stApp {
+            background-color: #2e2e2e;
+        }
+        </style>
+    """, unsafe_allow_html=True)
 
 
 st.sidebar.markdown("# Alle Features")
